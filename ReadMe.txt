@@ -16,3 +16,4 @@ Light = D23
 Heater = D13
 
 5- Be careful not to damage sim800 with over 4.4 V supply, best way is to use a 12 V adapter and LM2596 DC to DC convertor.
+6- Instead of +ZZ enter country code, and instead of xs, enter your own phone number
