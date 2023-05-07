@@ -20,7 +20,7 @@ const int Cooler = 5;
 const int Steam = 1;
 const int Light = 23;
 const int Heater = 13;
-const String Phone = "+989375204907";
+const String Phone = "+XXzzzzzzzzzz";
 int Brightness;
 
 boolean Automatic = true;
@@ -296,7 +296,7 @@ void updateSerial() {
 void Reply(String text) {
   sim800.println("AT+CMGF=1");
   updateSerial();
-  sim800.println("AT+CMGS=\"+989375204907\"");
+  sim800.println("AT+CMGS=\"+ZZxxxxxxxxxx\"");
   updateSerial();
   sim800.print(text);
   updateSerial();
